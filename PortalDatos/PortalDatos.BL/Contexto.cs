@@ -24,5 +24,6 @@ namespace PortalDatos.BL
 
         public DbSet<Producto> Productos { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
+        public DbSet <Clientes> Clientes { get; set; }
     }
 }
